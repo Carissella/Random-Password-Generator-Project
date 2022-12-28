@@ -13,6 +13,8 @@ function writePassword() {
   passwordText.value = password;
 }
 
+// This function creates the process of password generation
+// contains the prompts to decide characters of password
 function generatePassword () { 
   var options = []
   var passwordLength = prompt ("Choose a length of atleast 8 to 128 characters.");
